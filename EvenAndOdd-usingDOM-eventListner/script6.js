@@ -57,6 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
     updateDisplay();
   });
 
+  // display Function that renders new array in putput tag field
   function updateDisplay() {
     numberBankOutput.textContent = numberBank.join(", ");
     oddNumbersOutput.textContent = oddNumbers.join(", ");
